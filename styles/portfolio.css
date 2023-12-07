@@ -17,6 +17,13 @@
     background-color: #FD6E0A;
     
 }
+ 
+.header{
+    background-color: rgb(241, 237, 231);
+    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
 
 /* header and navigation styles */
 nav{
@@ -38,4 +45,50 @@ nav li{
     list-style: none;
     margin-left: 50px;
 }
+/* Banner Styles */
+.banner{
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
 
+}
+
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+
+}
+.banner-sub-title{
+    font-weight: 600;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+.banner-description{
+
+    color: rgb(140, 140, 150);
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+/* Main Section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About Section Styles */
+.about{
+    margin-top: 130px;
+    background-color: azure;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.section-description{
+    color: rgb(146, 150, 153);
+    margin-bottom: 30px;
+
+}
