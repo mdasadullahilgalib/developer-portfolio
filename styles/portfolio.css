@@ -135,3 +135,26 @@ main{
     color: rgb(15, 14, 14);
 }
 /* Resume Styles  */
+.resume-content{
+    display: flex;
+    gap: 24px;
+}
+.resume.title{
+    font-weight: 700;
+    font-size: 25px;
+    color: #3f3c39;
+    margin-bottom: 10px;
+}
+.resume.sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #747270;
+    margin-bottom: 20px;
+}
+.resume.discription{
+    color: #747270;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
